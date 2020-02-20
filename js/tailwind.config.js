@@ -13,7 +13,8 @@ module.exports = {
       },
     },
     height: {
-      'px500': '500px'
+      'px500': '500px',
+      'px700': '700px',
     },
     fontFamily: {
       display: ['Roboto', 'sans-serif'],

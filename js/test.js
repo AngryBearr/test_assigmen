@@ -1,4 +1,5 @@
 $('.slick-carousel').slick({
-    dots: true,
-    speed: 500
-  });
+  speed: 500,
+  nextArrow: '.nextButton',
+  prevArrow: '.previousButton'
+});
