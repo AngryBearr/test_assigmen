@@ -11,17 +11,14 @@ module.exports = {
         '96': '24rem',
         '128': '32rem',
       },
-    },
-    height: {
-      'px500': '500px',
-      'px700': '700px',
-    },
-    fontFamily: {
-      display: ['Roboto', 'sans-serif'],
-      body: ['Roboto', 'sans-serif'],
+      height: {
+        'px500': '500px',
+        'px700': '700px',
+      },
+      fontFamily: {
+        display: ['Roboto', 'sans-serif'],
+        body: ['Roboto', 'sans-serif'],
+      }
     }
-  },
-  variants: {
-    opacity: ['responsive', 'hover']
   }
 }

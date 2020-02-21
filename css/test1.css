@@ -559,7 +559,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 /**
@@ -3765,6 +3765,18 @@ video {
   clear: both !important;
 }
 
+.font-sans {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+.font-serif {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif !important;
+}
+
+.font-mono {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+}
+
 .font-display {
   font-family: Roboto, sans-serif !important;
 }
@@ -3879,6 +3891,94 @@ video {
 
 .focus\:font-black:focus {
   font-weight: 900 !important;
+}
+
+.h-0 {
+  height: 0 !important;
+}
+
+.h-1 {
+  height: 0.25rem !important;
+}
+
+.h-2 {
+  height: 0.5rem !important;
+}
+
+.h-3 {
+  height: 0.75rem !important;
+}
+
+.h-4 {
+  height: 1rem !important;
+}
+
+.h-5 {
+  height: 1.25rem !important;
+}
+
+.h-6 {
+  height: 1.5rem !important;
+}
+
+.h-8 {
+  height: 2rem !important;
+}
+
+.h-10 {
+  height: 2.5rem !important;
+}
+
+.h-12 {
+  height: 3rem !important;
+}
+
+.h-16 {
+  height: 4rem !important;
+}
+
+.h-20 {
+  height: 5rem !important;
+}
+
+.h-24 {
+  height: 6rem !important;
+}
+
+.h-32 {
+  height: 8rem !important;
+}
+
+.h-40 {
+  height: 10rem !important;
+}
+
+.h-48 {
+  height: 12rem !important;
+}
+
+.h-56 {
+  height: 14rem !important;
+}
+
+.h-64 {
+  height: 16rem !important;
+}
+
+.h-auto {
+  height: auto !important;
+}
+
+.h-px {
+  height: 1px !important;
+}
+
+.h-full {
+  height: 100% !important;
+}
+
+.h-screen {
+  height: 100vh !important;
 }
 
 .h-px500 {
@@ -5364,6 +5464,26 @@ video {
 }
 
 .hover\:opacity-100:hover {
+  opacity: 1 !important;
+}
+
+.focus\:opacity-0:focus {
+  opacity: 0 !important;
+}
+
+.focus\:opacity-25:focus {
+  opacity: 0.25 !important;
+}
+
+.focus\:opacity-50:focus {
+  opacity: 0.5 !important;
+}
+
+.focus\:opacity-75:focus {
+  opacity: 0.75 !important;
+}
+
+.focus\:opacity-100:focus {
   opacity: 1 !important;
 }
 
@@ -14149,18 +14269,6 @@ video {
   transition-duration: 1000ms !important;
 }
 
-.slide1 {
-  background-image: url("https://picsum.photos/1920/1080?random=1");
-}
-
-.slide2 {
-  background-image: url("https://picsum.photos/1920/1080?random=2");
-}
-
-.slide3 {
-  background-image: url("https://picsum.photos/1920/1080?random=3");
-}
-
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute !important;
@@ -17304,6 +17412,18 @@ video {
     clear: both !important;
   }
 
+  .sm\:font-sans {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  }
+
+  .sm\:font-serif {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif !important;
+  }
+
+  .sm\:font-mono {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  }
+
   .sm\:font-display {
     font-family: Roboto, sans-serif !important;
   }
@@ -17418,6 +17538,94 @@ video {
 
   .sm\:focus\:font-black:focus {
     font-weight: 900 !important;
+  }
+
+  .sm\:h-0 {
+    height: 0 !important;
+  }
+
+  .sm\:h-1 {
+    height: 0.25rem !important;
+  }
+
+  .sm\:h-2 {
+    height: 0.5rem !important;
+  }
+
+  .sm\:h-3 {
+    height: 0.75rem !important;
+  }
+
+  .sm\:h-4 {
+    height: 1rem !important;
+  }
+
+  .sm\:h-5 {
+    height: 1.25rem !important;
+  }
+
+  .sm\:h-6 {
+    height: 1.5rem !important;
+  }
+
+  .sm\:h-8 {
+    height: 2rem !important;
+  }
+
+  .sm\:h-10 {
+    height: 2.5rem !important;
+  }
+
+  .sm\:h-12 {
+    height: 3rem !important;
+  }
+
+  .sm\:h-16 {
+    height: 4rem !important;
+  }
+
+  .sm\:h-20 {
+    height: 5rem !important;
+  }
+
+  .sm\:h-24 {
+    height: 6rem !important;
+  }
+
+  .sm\:h-32 {
+    height: 8rem !important;
+  }
+
+  .sm\:h-40 {
+    height: 10rem !important;
+  }
+
+  .sm\:h-48 {
+    height: 12rem !important;
+  }
+
+  .sm\:h-56 {
+    height: 14rem !important;
+  }
+
+  .sm\:h-64 {
+    height: 16rem !important;
+  }
+
+  .sm\:h-auto {
+    height: auto !important;
+  }
+
+  .sm\:h-px {
+    height: 1px !important;
+  }
+
+  .sm\:h-full {
+    height: 100% !important;
+  }
+
+  .sm\:h-screen {
+    height: 100vh !important;
   }
 
   .sm\:h-px500 {
@@ -18903,6 +19111,26 @@ video {
   }
 
   .sm\:hover\:opacity-100:hover {
+    opacity: 1 !important;
+  }
+
+  .sm\:focus\:opacity-0:focus {
+    opacity: 0 !important;
+  }
+
+  .sm\:focus\:opacity-25:focus {
+    opacity: 0.25 !important;
+  }
+
+  .sm\:focus\:opacity-50:focus {
+    opacity: 0.5 !important;
+  }
+
+  .sm\:focus\:opacity-75:focus {
+    opacity: 0.75 !important;
+  }
+
+  .sm\:focus\:opacity-100:focus {
     opacity: 1 !important;
   }
 
@@ -30832,6 +31060,18 @@ video {
     clear: both !important;
   }
 
+  .md\:font-sans {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  }
+
+  .md\:font-serif {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif !important;
+  }
+
+  .md\:font-mono {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  }
+
   .md\:font-display {
     font-family: Roboto, sans-serif !important;
   }
@@ -30946,6 +31186,94 @@ video {
 
   .md\:focus\:font-black:focus {
     font-weight: 900 !important;
+  }
+
+  .md\:h-0 {
+    height: 0 !important;
+  }
+
+  .md\:h-1 {
+    height: 0.25rem !important;
+  }
+
+  .md\:h-2 {
+    height: 0.5rem !important;
+  }
+
+  .md\:h-3 {
+    height: 0.75rem !important;
+  }
+
+  .md\:h-4 {
+    height: 1rem !important;
+  }
+
+  .md\:h-5 {
+    height: 1.25rem !important;
+  }
+
+  .md\:h-6 {
+    height: 1.5rem !important;
+  }
+
+  .md\:h-8 {
+    height: 2rem !important;
+  }
+
+  .md\:h-10 {
+    height: 2.5rem !important;
+  }
+
+  .md\:h-12 {
+    height: 3rem !important;
+  }
+
+  .md\:h-16 {
+    height: 4rem !important;
+  }
+
+  .md\:h-20 {
+    height: 5rem !important;
+  }
+
+  .md\:h-24 {
+    height: 6rem !important;
+  }
+
+  .md\:h-32 {
+    height: 8rem !important;
+  }
+
+  .md\:h-40 {
+    height: 10rem !important;
+  }
+
+  .md\:h-48 {
+    height: 12rem !important;
+  }
+
+  .md\:h-56 {
+    height: 14rem !important;
+  }
+
+  .md\:h-64 {
+    height: 16rem !important;
+  }
+
+  .md\:h-auto {
+    height: auto !important;
+  }
+
+  .md\:h-px {
+    height: 1px !important;
+  }
+
+  .md\:h-full {
+    height: 100% !important;
+  }
+
+  .md\:h-screen {
+    height: 100vh !important;
   }
 
   .md\:h-px500 {
@@ -32431,6 +32759,26 @@ video {
   }
 
   .md\:hover\:opacity-100:hover {
+    opacity: 1 !important;
+  }
+
+  .md\:focus\:opacity-0:focus {
+    opacity: 0 !important;
+  }
+
+  .md\:focus\:opacity-25:focus {
+    opacity: 0.25 !important;
+  }
+
+  .md\:focus\:opacity-50:focus {
+    opacity: 0.5 !important;
+  }
+
+  .md\:focus\:opacity-75:focus {
+    opacity: 0.75 !important;
+  }
+
+  .md\:focus\:opacity-100:focus {
     opacity: 1 !important;
   }
 
@@ -44360,6 +44708,18 @@ video {
     clear: both !important;
   }
 
+  .lg\:font-sans {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  }
+
+  .lg\:font-serif {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif !important;
+  }
+
+  .lg\:font-mono {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  }
+
   .lg\:font-display {
     font-family: Roboto, sans-serif !important;
   }
@@ -44474,6 +44834,94 @@ video {
 
   .lg\:focus\:font-black:focus {
     font-weight: 900 !important;
+  }
+
+  .lg\:h-0 {
+    height: 0 !important;
+  }
+
+  .lg\:h-1 {
+    height: 0.25rem !important;
+  }
+
+  .lg\:h-2 {
+    height: 0.5rem !important;
+  }
+
+  .lg\:h-3 {
+    height: 0.75rem !important;
+  }
+
+  .lg\:h-4 {
+    height: 1rem !important;
+  }
+
+  .lg\:h-5 {
+    height: 1.25rem !important;
+  }
+
+  .lg\:h-6 {
+    height: 1.5rem !important;
+  }
+
+  .lg\:h-8 {
+    height: 2rem !important;
+  }
+
+  .lg\:h-10 {
+    height: 2.5rem !important;
+  }
+
+  .lg\:h-12 {
+    height: 3rem !important;
+  }
+
+  .lg\:h-16 {
+    height: 4rem !important;
+  }
+
+  .lg\:h-20 {
+    height: 5rem !important;
+  }
+
+  .lg\:h-24 {
+    height: 6rem !important;
+  }
+
+  .lg\:h-32 {
+    height: 8rem !important;
+  }
+
+  .lg\:h-40 {
+    height: 10rem !important;
+  }
+
+  .lg\:h-48 {
+    height: 12rem !important;
+  }
+
+  .lg\:h-56 {
+    height: 14rem !important;
+  }
+
+  .lg\:h-64 {
+    height: 16rem !important;
+  }
+
+  .lg\:h-auto {
+    height: auto !important;
+  }
+
+  .lg\:h-px {
+    height: 1px !important;
+  }
+
+  .lg\:h-full {
+    height: 100% !important;
+  }
+
+  .lg\:h-screen {
+    height: 100vh !important;
   }
 
   .lg\:h-px500 {
@@ -45959,6 +46407,26 @@ video {
   }
 
   .lg\:hover\:opacity-100:hover {
+    opacity: 1 !important;
+  }
+
+  .lg\:focus\:opacity-0:focus {
+    opacity: 0 !important;
+  }
+
+  .lg\:focus\:opacity-25:focus {
+    opacity: 0.25 !important;
+  }
+
+  .lg\:focus\:opacity-50:focus {
+    opacity: 0.5 !important;
+  }
+
+  .lg\:focus\:opacity-75:focus {
+    opacity: 0.75 !important;
+  }
+
+  .lg\:focus\:opacity-100:focus {
     opacity: 1 !important;
   }
 
@@ -57888,6 +58356,18 @@ video {
     clear: both !important;
   }
 
+  .xl\:font-sans {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  }
+
+  .xl\:font-serif {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif !important;
+  }
+
+  .xl\:font-mono {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  }
+
   .xl\:font-display {
     font-family: Roboto, sans-serif !important;
   }
@@ -58002,6 +58482,94 @@ video {
 
   .xl\:focus\:font-black:focus {
     font-weight: 900 !important;
+  }
+
+  .xl\:h-0 {
+    height: 0 !important;
+  }
+
+  .xl\:h-1 {
+    height: 0.25rem !important;
+  }
+
+  .xl\:h-2 {
+    height: 0.5rem !important;
+  }
+
+  .xl\:h-3 {
+    height: 0.75rem !important;
+  }
+
+  .xl\:h-4 {
+    height: 1rem !important;
+  }
+
+  .xl\:h-5 {
+    height: 1.25rem !important;
+  }
+
+  .xl\:h-6 {
+    height: 1.5rem !important;
+  }
+
+  .xl\:h-8 {
+    height: 2rem !important;
+  }
+
+  .xl\:h-10 {
+    height: 2.5rem !important;
+  }
+
+  .xl\:h-12 {
+    height: 3rem !important;
+  }
+
+  .xl\:h-16 {
+    height: 4rem !important;
+  }
+
+  .xl\:h-20 {
+    height: 5rem !important;
+  }
+
+  .xl\:h-24 {
+    height: 6rem !important;
+  }
+
+  .xl\:h-32 {
+    height: 8rem !important;
+  }
+
+  .xl\:h-40 {
+    height: 10rem !important;
+  }
+
+  .xl\:h-48 {
+    height: 12rem !important;
+  }
+
+  .xl\:h-56 {
+    height: 14rem !important;
+  }
+
+  .xl\:h-64 {
+    height: 16rem !important;
+  }
+
+  .xl\:h-auto {
+    height: auto !important;
+  }
+
+  .xl\:h-px {
+    height: 1px !important;
+  }
+
+  .xl\:h-full {
+    height: 100% !important;
+  }
+
+  .xl\:h-screen {
+    height: 100vh !important;
   }
 
   .xl\:h-px500 {
@@ -59487,6 +60055,26 @@ video {
   }
 
   .xl\:hover\:opacity-100:hover {
+    opacity: 1 !important;
+  }
+
+  .xl\:focus\:opacity-0:focus {
+    opacity: 0 !important;
+  }
+
+  .xl\:focus\:opacity-25:focus {
+    opacity: 0.25 !important;
+  }
+
+  .xl\:focus\:opacity-50:focus {
+    opacity: 0.5 !important;
+  }
+
+  .xl\:focus\:opacity-75:focus {
+    opacity: 0.75 !important;
+  }
+
+  .xl\:focus\:opacity-100:focus {
     opacity: 1 !important;
   }
 

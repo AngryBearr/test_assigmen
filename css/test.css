@@ -3,15 +3,3 @@
 @tailwind components;
 
 @tailwind utilities;
-
-.slide1 {
-    background-image: url("https://picsum.photos/1920/1080?random=1");
-}
-
-.slide2 {
-    background-image: url("https://picsum.photos/1920/1080?random=2");
-}
-
-.slide3 {
-    background-image: url("https://picsum.photos/1920/1080?random=3");
-}
